@@ -1,7 +1,11 @@
-﻿# Canon-ball
-For this project, I developed and implemented a game called "Canon Ball" using VHDL on an FPGA DE0 board. The objective of the game is to launch the ball and guide it towards a target.
+# Canon Ball (VHDL FPGA Game)
 
-you can see how the game works here:
-https://www.youtube.com/watch?v=raZimmcXVxw
+FPGA game implemented in VHDL for the DE0 board. Launch a ball and guide it to a target.
 
+## Features
+- VHDL modules for trajectory and rendering
+- DE0 board target
+- Demo video: https://www.youtube.com/watch?v=raZimmcXVxw
 
+## Run
+Open the project in Quartus (see `FPGA_Proj.tcl`), build, and program the board.
